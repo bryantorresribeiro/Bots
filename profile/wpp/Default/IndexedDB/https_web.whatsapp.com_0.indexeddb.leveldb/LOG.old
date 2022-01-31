@@ -1,3 +1,6 @@
-2022/01/31-13:06:45.874 6f8b Reusing MANIFEST /home/bryan/whatsapp/profile/wpp/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/01/31-13:06:45.874 6f8b Recovering log #3
-2022/01/31-13:06:45.900 6f8b Reusing old log /home/bryan/whatsapp/profile/wpp/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000003.log 
+2022/01/31-18:20:44.496 cb50 Reusing MANIFEST /home/bryan/Federalbot/profile/wpp/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/01/31-18:20:44.496 cb50 Recovering log #3
+2022/01/31-18:20:44.759 cb50 Reusing old log /home/bryan/Federalbot/profile/wpp/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000003.log 
+2022/01/31-18:20:50.676 cbd6 Level-0 table #5: started
+2022/01/31-18:20:50.816 cbd6 Level-0 table #5: 1086506 bytes OK
+2022/01/31-18:20:50.826 cbd6 Delete type=0 #3

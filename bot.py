@@ -17,7 +17,7 @@ options.add_argument('--log-level=3')
 driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)
 driver.get('https://web.whatsapp.com/')
 
-contatos = ["6 anões e 1 gigante FDRAL", "lele", "+55 68 9600-9546", "+55 68 9958-8646", "+55 68 9994-6069", "+55 68 8421-5711", "+55 68 9245-9623"]
+contatos = ["lele", "dani", "buja", "bessa", "ale", "jão", "6 anões e 1 gigante FDRAL"]
 
 def gerador_de_frase():
     apiRequest = requests.get('https://api.chucknorris.io/jokes/random')
@@ -35,6 +35,8 @@ def enviar_mensagem(mensagem):
     campo_mensagem[1].click()
     campo_mensagem[1].send_keys(mensagem)
     campo_mensagem[1].send_keys(Keys.ENTER)
+
+time.sleep(5)
 
 true = 0
 while true == 0:
